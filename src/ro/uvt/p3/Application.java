@@ -12,6 +12,22 @@ public class Application {
         this.od = od;
     }
 
+    public int computeWeight(Fruit[] fruits)
+    {
+        int sum = 0;
+        for(Fruit f:fruits)
+            sum += f.getWeight();
+        return sum;
+    }
+
+    public int computeSugarContent(Fruit[] fruits)
+    {
+        int sum = 0;
+        for(Fruit f:fruits)
+            sum += f.getSugar();
+        return sum;
+    }
+
     public void run(){
 
     }

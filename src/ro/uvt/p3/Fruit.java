@@ -13,4 +13,16 @@ public abstract class Fruit {
         this.sugar = s;
         this.water = h2o;
     }
+    public int getWeight() {
+        return weight;
+    }
+    public int getSugar() {
+        return sugar;
+    }
+    public int getWater() {
+        return water;
+    }
+    public Color getColor() {
+        return color;
+    }
 }
