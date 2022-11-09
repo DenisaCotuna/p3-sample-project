@@ -28,6 +28,16 @@ public class Application {
         return sum;
     }
 
+    public void prepareFruit(Fruit[] fruits)
+    {
+        for(Fruit f:fruits)
+        {
+            if(f instanceof Peelable)
+                ((Peelable) f).peelOff();
+            if(f instanceof SeedRemovable)
+                ((SeedRemovable) f).removeSeeds();
+        }
+    }
     public void run(){
 
     }

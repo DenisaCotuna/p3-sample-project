@@ -12,5 +12,4 @@ public class OutputDevice {
         for(Fruit f:fruits)
             System.out.println(f);
     }
-
 }
