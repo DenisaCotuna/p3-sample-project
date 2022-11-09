@@ -1,2 +1,2 @@
-# p3-sample-project
-Sample project for Programming 3 labs
+# p3-labs
+Lab 3 completed
